@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Kalkulator czasu ukończenia półmaratonu
 
 Aplikacja szacuje przewidywany czas ukończenia półmaratonu na podstawie płci, wieku i czasu na 5 km, które użytkownik podaje w formie swobodnego
