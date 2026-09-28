@@ -1,7 +1,6 @@
 # sekrety - nigdy nie commitujemy prawdziwych kluczy API
 .env
 .streamlit/secrets.toml
-secrets.toml.example
 # dane - trzymamy je w R2
 data/raw/
 data/processed/
