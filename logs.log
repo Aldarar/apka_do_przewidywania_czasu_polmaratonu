@@ -1,0 +1,100 @@
+2026-09-25 13:11:47,918:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-25 13:11:47,918:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-25 13:11:47,918:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-25 13:11:47,918:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-25 13:22:37,129:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-25 13:22:37,140:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-25 13:22:37,140:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-25 13:22:37,140:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-28 14:52:48,227:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-28 14:52:48,227:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-28 14:52:48,227:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-28 14:52:48,227:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-09-28 14:54:51,141:INFO:Initializing load_model()
+2026-09-28 14:54:51,141:INFO:load_model(model_name=models/latest, platform=None, authentication=None, verbose=True)
+2026-09-28 14:54:51,170:INFO:Initializing predict_model()
+2026-09-28 14:54:51,170:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002744656BD50>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'time_5km_s'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['gender'],
+                                    transformer=OrdinalEncoder(cols=['gender'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'gender',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', HuberRegressor(alpha=0.01, epsilon=1.1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002740AA83380>)
+2026-09-28 14:54:51,170:INFO:Checking exceptions
+2026-09-28 14:54:51,170:INFO:Preloading libraries
+2026-09-28 14:54:51,170:INFO:Set up data.
+2026-09-28 14:54:51,172:INFO:Set up index.
+2026-09-28 14:58:59,771:INFO:Initializing predict_model()
+2026-09-28 14:58:59,771:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000274473D7110>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'time_5km_s'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['gender'],
+                                    transformer=OrdinalEncoder(cols=['gender'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'gender',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', HuberRegressor(alpha=0.01, epsilon=1.1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000027447574720>)
+2026-09-28 14:58:59,771:INFO:Checking exceptions
+2026-09-28 14:58:59,771:INFO:Preloading libraries
+2026-09-28 14:58:59,772:INFO:Set up data.
+2026-09-28 14:58:59,773:INFO:Set up index.
+2026-09-28 16:26:07,393:INFO:Initializing load_model()
+2026-09-28 16:26:07,393:INFO:load_model(model_name=models/latest, platform=None, authentication=None, verbose=True)
+2026-09-28 16:26:07,421:INFO:Initializing predict_model()
+2026-09-28 16:26:07,422:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000027447600350>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'time_5km_s'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['gender'],
+                                    transformer=OrdinalEncoder(cols=['gender'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'gender',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator', HuberRegressor(alpha=0.01, epsilon=1.1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000027447574220>)
+2026-09-28 16:26:07,422:INFO:Checking exceptions
+2026-09-28 16:26:07,422:INFO:Preloading libraries
+2026-09-28 16:26:07,422:INFO:Set up data.
+2026-09-28 16:26:07,423:INFO:Set up index.
