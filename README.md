@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Kalkulator czasu ukończenia półmaratonu
 
 Aplikacja szacuje przewidywany czas ukończenia półmaratonu na podstawie płci, wieku i czasu na 5 km, które użytkownik podaje w formie swobodnego
@@ -22,7 +23,7 @@ polmaraton-app/
 ├── src/
 │   ├── preprocess_time.py  # krok 1: konwersja czasu tekstowego na sekundy
 │   ├── upload_to_r2.py     # krok 2: wysyłk danych do Cloudflare R2
-│   └── r2_utils.py         # wspólne funkcje do R2 (używane też przez notebook i aplikacje)
+│   └── r2_management.py         # wspólne funkcje do R2 (używane też przez notebook i aplikacje)
 ├── notebooks/
 │   └── train_pipeline.ipynb  # krok 3: pipeline trenowania modelu (PyCaret)
 ├── app/
@@ -106,3 +107,7 @@ jeśli tak to wskaże, które dane należy jeszcze podać, a jeśli mamy komplet
 
 
 
+=======
+# apka_do_przewidywania_czasu_polmaratonu
+aplikacja do przewidywania czasu użytkownika w jaki pokona półmaraton
+>>>>>>> 06089b13c0c44cc1db5dd55c06c8523b4870f112
