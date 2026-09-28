@@ -92,7 +92,3 @@ Otworzy się przeglądarka z formularzem tekstowym. Wpisz np.:
 Aplikacja wyciągnie z tego płeć/wiek/czas, sprawdzi czy niczego nie brakuje, 
 jeśli tak to wskaże, które dane należy jeszcze podać, a jeśli mamy komplet - pokaże przewidywany czas półmaratonu.
 
-
-
-=======
->>>>>>> 06089b13c0c44cc1db5dd55c06c8523b4870f112
