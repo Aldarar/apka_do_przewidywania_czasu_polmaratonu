@@ -1,18 +1,15 @@
-# --- obsługa danych ---
 pandas==1.5.3
 numpy==1.26.4
 
-# --- Cloudflare R2 ---
 boto3==1.35.93
-python-dotenv==1.2.3
+python-dotenv==0.21.0
 
-# --- trenowanie modelu ---
-pycaret[full]==3.3.2
+pycaret==3.3.2
 scikit-learn==1.4.2
+numba==0.58.1
+matplotlib==3.7.5
 
-# --- aplikacja ---
-streamlit==1.42.2
+streamlit==1.43.2
 
-# --- LLM (OpenAI) i monitoring (Langfuse) ---
-openai==1.40.0
+openai==1.107.1
 langfuse==2.51.4
