@@ -76,7 +76,7 @@ Uruchomiono komórki po kolei. Notebook:
 - trenuje kilka modeli regresji za pomocą PyCaret i wybiera najlepszy
   (metryka: **MAE** - średni błąd w sekundach),
 - zapisuje model lokalnie w `models/` i wysyła go do R2 jako
-  `models/latest.pkl` (plus wersja z datą w nazwie- historiczne).
+  `models/latest.pkl` (plus wersja z datą w nazwie- historyczne).
   
 
 ### 4. Uruchomienie aplikacji lokalnie
@@ -92,22 +92,7 @@ Otworzy się przeglądarka z formularzem tekstowym. Wpisz np.:
 Aplikacja wyciągnie z tego płeć/wiek/czas, sprawdzi czy niczego nie brakuje, 
 jeśli tak to wskaże, które dane należy jeszcze podać, a jeśli mamy komplet - pokaże przewidywany czas półmaratonu.
 
-### 5. Wdrożenie na Streamlit Community Cloud
-
-1. Wdrożenie projektu do repozytorium na GitHubie
-2. Wejście na [share.streamlit.io](https://share.streamlit.io) i zaloguj się
-   kontem GitHub.
-3. Kliknij **"New app"**, wybierz swoje repozytorium, branch `main` i jako
-   **Main file path** podaj: `app/streamlit_app.py`.
-4. W ustawieniach aplikacji (**Settings -> Secrets**) wklej zawartość pliku
-   `.streamlit/secrets.toml.example`, uzupełnioną prawdziwymi kluczami
-   (format TOML, patrz przykład w repo).
-5. Kliknij **Deploy**. Po chwili aplikacja będzie dostępna pod publicznym
-   adresem `https://<nazwa-twojej-appki>.streamlit.app`.
-
 
 
 =======
-# apka_do_przewidywania_czasu_polmaratonu
-aplikacja do przewidywania czasu użytkownika w jaki pokona półmaraton
 >>>>>>> 06089b13c0c44cc1db5dd55c06c8523b4870f112
